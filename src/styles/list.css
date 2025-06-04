@@ -1,22 +1,32 @@
+*{
+    background: rgb(8, 85, 8);
+}
+
 section{
     border: 1px solid black;
-    width: 250px;
+    width: 350px;
     height: 250px;
-    margin: 25px auto;
+    margin: 10% auto;
     border-radius: 8px;
 }
 
-section h1{
+section h1 {
     text-align: center;
+    color: aliceblue;
+}
+
+section h2{
+    color: aliceblue;
 }
 
 li{
     font-weight: 100px;
     font-size: 20px;
+    color: aliceblue;
 }
 
 .complete{
-    color: green;
+    color: rgb(166, 181, 166);
     text-decoration: line-through solid rgb(52, 180, 80) 2px;
 }
 

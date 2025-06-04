@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    background: green;
+}
+
+p{
+    font-size: 100px;
+    text-align: center;
+    color: rgb(37, 171, 19);
+}
+
+button{
+    background: rgb(35, 140, 44);
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 0 47%;
+}
+
+button:hover{
+    background: rgb(37, 171, 19);
+}

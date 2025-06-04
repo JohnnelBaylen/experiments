@@ -1,3 +1,5 @@
+
+```
 src/
 ├── style/
 │   ├── button.css       # Styles for the button component
@@ -13,3 +15,5 @@ src/
     ├── button.js        # JavaScript functionality for the button component
     ├── list.js          # JavaScript functionality for the list component
     └── camera.js        # JavaScript functionality for the camera component
+
+```

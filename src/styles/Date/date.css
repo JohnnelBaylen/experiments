@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #d7ccc8; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fffaf5; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    max-width: 90%;
+    width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    color: #4e342e; 
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    min-width: 100px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.yesButton {
+    background-color: #6d4c41;
+    color: white;
+    position: relative;
+    left: -30px;
+}
+
+.noButton {
+    background-color: #a1887f;
+    color: white;
+    position: relative;
+    right: -30px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .yesButton,
+    .noButton {
+        left: 0;
+        right: 0;
+        position: static;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+}

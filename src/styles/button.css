@@ -1,12 +1,12 @@
 *{
     padding: 0;
-    background: green;
 }
 
 p{
     font-size: 100px;
     text-align: center;
     color: rgb(15, 18, 15);
+    border-radius: 8px;
 }
 
 button{
